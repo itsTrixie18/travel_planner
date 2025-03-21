@@ -1,0 +1,15 @@
+backgroundColor: Color.fromARGB(255, 77, 166, 116),
+      body: Center(
+        child: Padding(
+          padding: EdgeInsets.all(20.0),
+          child: Form(
+            key: _formKey,
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Image.asset('assets/images/WANDERWISE.png', width: 200,height: 200,),
+                Text(
+                  "Login",
+                  style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold,color: Colors.white),
+                ),
+                SizedBox(height: 20),
